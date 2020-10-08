@@ -1,0 +1,24 @@
+Package: bis557
+Title: Linear model and the gradient descent
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Yinfei",
+           family = "Wu",
+           role = c("aut", "cre"),
+           email = "yinfei.wu@yale.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Linear regression model functions and its gradient descent
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Suggests: 
+    testthat,
+    covr,
+    knitr,
+    rmarkdown
+Depends: 
+    R (>= 2.10)
+VignetteBuilder: knitr
